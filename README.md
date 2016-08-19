@@ -7,3 +7,5 @@
 
 4) It was used yahoo-finance version 1.2.1.
 
+5) If there are problems in running the script and you have a Mac OS X platform try to install simplejson.
+
