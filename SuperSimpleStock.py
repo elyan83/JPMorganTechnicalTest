@@ -30,9 +30,6 @@
 
 import os
 import sys
-sys.path.append('Packages/pyalgotrade')
-sys.path.append('Packages/pandas')
-sys.path.append('Packages/yahoo_finance')
 
 import numpy as np
 import matplotlib
@@ -42,6 +39,8 @@ import random
 import datetime
 import pandas as pd
 import pandas.io.data
+
+sys.path.append('Packages/')
 
 from pyalgotrade import strategy
 from yahoo_finance import Currency
